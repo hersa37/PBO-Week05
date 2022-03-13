@@ -4,7 +4,7 @@
  */
 import org.junit.Before;
 import org.junit.Test;
-import pbo1.week04.EmployeeData;
+import pbo1.week04.Pegawai;
 /**
  *
  * @author echa
@@ -12,11 +12,11 @@ import pbo1.week04.EmployeeData;
  * Informatika - Universitas Sanata Dharma
  */
 public class EmployeeData_Test {
-    EmployeeData ed;
+    Pegawai ed;
     
     @Before
     public void startTest(){
-        ed=new EmployeeData();
+        ed=new Pegawai();
     }
     
     @Test
